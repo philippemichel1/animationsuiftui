@@ -13,6 +13,12 @@
 		371438E32562F69B00694084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371438E22562F69B00694084 /* Assets.xcassets */; };
 		371438E62562F69B00694084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371438E52562F69B00694084 /* Preview Assets.xcassets */; };
 		371438E92562F69B00694084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371438E72562F69B00694084 /* LaunchScreen.storyboard */; };
+		3715F5D32564454900892735 /* Animation3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715F5D22564454900892735 /* Animation3.swift */; };
+		3715F5D6256447A100892735 /* Animation4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715F5D5256447A100892735 /* Animation4.swift */; };
+		3715F5D925644B1B00892735 /* Animation5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715F5D825644B1B00892735 /* Animation5.swift */; };
+		37C86896256430080019A4D7 /* Animation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C86895256430080019A4D7 /* Animation2.swift */; };
+		37D070CE25646A79008EED93 /* Animation6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D070CD25646A79008EED93 /* Animation6.swift */; };
+		37F78954256417FD00D5C98B /* Animation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F78953256417FD00D5C98B /* Animation1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		371438E52562F69B00694084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		371438E82562F69B00694084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		371438EA2562F69B00694084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3715F5D22564454900892735 /* Animation3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation3.swift; sourceTree = "<group>"; };
+		3715F5D5256447A100892735 /* Animation4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation4.swift; sourceTree = "<group>"; };
+		3715F5D825644B1B00892735 /* Animation5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation5.swift; sourceTree = "<group>"; };
+		37C86895256430080019A4D7 /* Animation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation2.swift; sourceTree = "<group>"; };
+		37D070CD25646A79008EED93 /* Animation6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation6.swift; sourceTree = "<group>"; };
+		37F78953256417FD00D5C98B /* Animation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,7 @@
 				371438DC2562F69A00694084 /* AppDelegate.swift */,
 				371438DE2562F69A00694084 /* SceneDelegate.swift */,
 				371438E02562F69A00694084 /* ContentView.swift */,
+				37C8689425642FD50019A4D7 /* Vue */,
 				371438E22562F69B00694084 /* Assets.xcassets */,
 				371438E72562F69B00694084 /* LaunchScreen.storyboard */,
 				371438EA2562F69B00694084 /* Info.plist */,
@@ -73,6 +86,19 @@
 				371438E52562F69B00694084 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37C8689425642FD50019A4D7 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+				37F78953256417FD00D5C98B /* Animation1.swift */,
+				37C86895256430080019A4D7 /* Animation2.swift */,
+				3715F5D22564454900892735 /* Animation3.swift */,
+				3715F5D5256447A100892735 /* Animation4.swift */,
+				3715F5D825644B1B00892735 /* Animation5.swift */,
+				37D070CD25646A79008EED93 /* Animation6.swift */,
+			);
+			path = Vue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3715F5D925644B1B00892735 /* Animation5.swift in Sources */,
+				3715F5D32564454900892735 /* Animation3.swift in Sources */,
+				3715F5D6256447A100892735 /* Animation4.swift in Sources */,
+				37D070CE25646A79008EED93 /* Animation6.swift in Sources */,
+				37F78954256417FD00D5C98B /* Animation1.swift in Sources */,
 				371438DD2562F69A00694084 /* AppDelegate.swift in Sources */,
+				37C86896256430080019A4D7 /* Animation2.swift in Sources */,
 				371438DF2562F69A00694084 /* SceneDelegate.swift in Sources */,
 				371438E12562F69A00694084 /* ContentView.swift in Sources */,
 			);
