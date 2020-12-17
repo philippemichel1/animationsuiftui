@@ -16,6 +16,8 @@
 		3715F5D32564454900892735 /* Animation3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715F5D22564454900892735 /* Animation3.swift */; };
 		3715F5D6256447A100892735 /* Animation4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715F5D5256447A100892735 /* Animation4.swift */; };
 		3715F5D925644B1B00892735 /* Animation5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715F5D825644B1B00892735 /* Animation5.swift */; };
+		3733B2DB258B70C500B30998 /* Animation7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3733B2DA258B70C500B30998 /* Animation7.swift */; };
+		376D2EC32566B8060078247E /* BoutonSansAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D2EC22566B8060078247E /* BoutonSansAnim.swift */; };
 		37C86896256430080019A4D7 /* Animation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C86895256430080019A4D7 /* Animation2.swift */; };
 		37D070CE25646A79008EED93 /* Animation6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D070CD25646A79008EED93 /* Animation6.swift */; };
 		37F78954256417FD00D5C98B /* Animation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F78953256417FD00D5C98B /* Animation1.swift */; };
@@ -33,6 +35,8 @@
 		3715F5D22564454900892735 /* Animation3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation3.swift; sourceTree = "<group>"; };
 		3715F5D5256447A100892735 /* Animation4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation4.swift; sourceTree = "<group>"; };
 		3715F5D825644B1B00892735 /* Animation5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation5.swift; sourceTree = "<group>"; };
+		3733B2DA258B70C500B30998 /* Animation7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation7.swift; sourceTree = "<group>"; };
+		376D2EC22566B8060078247E /* BoutonSansAnim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonSansAnim.swift; sourceTree = "<group>"; };
 		37C86895256430080019A4D7 /* Animation2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation2.swift; sourceTree = "<group>"; };
 		37D070CD25646A79008EED93 /* Animation6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation6.swift; sourceTree = "<group>"; };
 		37F78953256417FD00D5C98B /* Animation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation1.swift; sourceTree = "<group>"; };
@@ -92,11 +96,13 @@
 			isa = PBXGroup;
 			children = (
 				37F78953256417FD00D5C98B /* Animation1.swift */,
+				3733B2DA258B70C500B30998 /* Animation7.swift */,
 				37C86895256430080019A4D7 /* Animation2.swift */,
 				3715F5D22564454900892735 /* Animation3.swift */,
 				3715F5D5256447A100892735 /* Animation4.swift */,
 				3715F5D825644B1B00892735 /* Animation5.swift */,
 				37D070CD25646A79008EED93 /* Animation6.swift */,
+				376D2EC22566B8060078247E /* BoutonSansAnim.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -171,6 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3733B2DB258B70C500B30998 /* Animation7.swift in Sources */,
+				376D2EC32566B8060078247E /* BoutonSansAnim.swift in Sources */,
 				3715F5D925644B1B00892735 /* Animation5.swift in Sources */,
 				3715F5D32564454900892735 /* Animation3.swift in Sources */,
 				3715F5D6256447A100892735 /* Animation4.swift in Sources */,

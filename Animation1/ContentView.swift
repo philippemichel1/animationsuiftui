@@ -20,6 +20,7 @@ struct ContentView: View {
                     NavigationLink("Durée + temporisation", destination: Animation4())
                     NavigationLink("Répeter l'animation" , destination: Animation5())
                     NavigationLink("Rayonnement" , destination: Animation6())
+                    NavigationLink("Rotation " , destination: Animation7())
                 }
                 .navigationTitle("Animations")
             }
